@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Cleanup by removing the nano configuration that we had copy
-rm ~/.nanorc
+rm -rf ~/.nanorc
 
 # Remove the line that sources our custom bash configuration
 sed -i "s/source ~\/.dotfiles\/etc\/bashrc_custom//" ~/.bashrc
