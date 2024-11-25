@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2024 Samuel Wu
+#
+# SPDX-License-Identifier: 0BSD
+
+*               text=auto
+*.sh            eol=lf
+bashrc_custom   eol=lf
+Makefile        eol=lf
