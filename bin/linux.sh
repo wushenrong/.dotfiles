@@ -18,6 +18,12 @@ fi
 # Copy the new nano configuration to the home directory
 cat etc/nanorc > ~/.nanorc
 
+# Checking and backing up an existing vim configuration
+if [ -f ~/.vimrc ]; then
+  echo "Renaming ~/.vimrc to ~/.bup_vimrc" >> linuxsetup.log
+  mv ~/.vimrc ~/.bup_vimrc
+fi
+
 # Append the custom bash configuration at the end of the existing configuration
 # to access custom aliases and functions
 echo "source ~/.dotfiles/etc/bashrc_custom" >> ~/.bashrc

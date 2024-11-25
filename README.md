@@ -20,6 +20,12 @@ Configuration file for the editor Nano. It tells nano to auto indent lines, set
 the indentation size to four columns, use bold text, enable mouse support, and
 set the colors of the shortcut key combos to red and blue.
 
+## etc/vimrc
+
+Configuration file for the editor Vim. It tells vim to auto indent lines,
+disable vi mode, enable line numbers, syntax highlighting, and ignore case when
+searching.
+
 ## etc/bashrc_custom
 
 Additional aliases and functions for commands like `cd` and `tar` for Bash. Also
