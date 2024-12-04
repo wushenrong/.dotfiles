@@ -1,9 +1,14 @@
 # My Dotfiles
 
+This repository is the homework solution to CSCE 215, see [dotfiles][dotfiles]
+without the leading dot for my actual dotfile configuration.
+
 This repository contains my dotfile configurations for different software in
 Linux. It will add additional functions and aliases to Bash and configures Nano
 and backup the existing configuration. Also it will create a trash folder so
 rm files can be recovered.
+
+[dotfiles]: https://github.com/wushenrong/dotfiles
 
 ## Install Configuration
 
@@ -30,3 +35,8 @@ searching.
 
 Additional aliases and functions for commands like `cd` and `tar` for Bash. Also
 sets the `PATH` variable to include the current working directory.
+
+## License
+
+This repository is licensed under the BSD Zero Clause License using
+[SPDX](https://spdx.dev) expressions.

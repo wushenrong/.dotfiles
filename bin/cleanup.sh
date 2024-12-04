@@ -1,4 +1,7 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2024 Samuel Wu
+#
+# SPDX-License-Identifier: 0BSD
 
 # Cleanup by removing the nano configuration that we copied
 rm -rf ~/.nanorc
